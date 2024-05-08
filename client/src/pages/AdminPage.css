@@ -1,0 +1,22 @@
+/* AdminPage.css */
+
+
+.admin-page {
+  padding: 20px;
+   
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+/* AdminPage.css */
+.admin-page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
