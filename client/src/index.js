@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import { Auth0Provider } from "@auth0/auth0-react";
 
 import App from "./App";
@@ -8,13 +8,15 @@ const onRedirectCallback = (appState) => {
   window.location.assign(appState?.returnTo || "/admin");
 };
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
       domain="dev-60yyy3jqiys5xvnx.us.auth0.com"
       clientId="aqJX0oFKeuiVebVaxklg5k06CpKtpJGd"
-      redirectUri={window.location.origin}
       onRedirectCallback={onRedirectCallback}
+      authorizationParams={{
+        redirect_uri: window.location.origin,
+      }}
     >
       <App />
     </Auth0Provider>

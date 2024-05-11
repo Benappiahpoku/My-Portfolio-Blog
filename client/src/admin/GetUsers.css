@@ -1,0 +1,37 @@
+/* ContentList.css */
+.content-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-list table {
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  width: 90%; /* Adjust this value to change the width of the table */
+  margin: auto;
+}
+
+.content-list th, .content-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.content-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px;
+}
+

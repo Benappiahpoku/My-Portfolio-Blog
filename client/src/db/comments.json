@@ -1,0 +1,38 @@
+[
+    {
+        "id": 2,
+        "content": "fatback prosciutto meatloaf. Alcatra ball tip swine pancetta jowl cupim. ",
+        "author": "Author Benji",
+        "postId": 5,
+        "userId": 1,
+        "createdAt": "2024-05-09T15:12:19.000Z",
+        "updatedAt": "2024-05-09T15:12:19.000Z"
+    },
+    {
+        "id": 3,
+        "content": "Short loin shank landjaeger, salami sausage bacon leberkas pork belly. ",
+        "author": "Author Jerry",
+        "postId": 5,
+        "userId": 1,
+        "createdAt": "2024-05-09T15:12:42.000Z",
+        "updatedAt": "2024-05-09T15:12:42.000Z"
+    },
+    {
+        "id": 4,
+        "content": "Hamburger pork chop kielbasa jerky.  ",
+        "author": "Author Kwame",
+        "postId": 6,
+        "userId": 1,
+        "createdAt": "2024-05-09T15:13:08.000Z",
+        "updatedAt": "2024-05-09T15:13:08.000Z"
+    },
+    {
+        "id": 5,
+        "content": "Chicken frankfurter brisket landjaeger pork loin ham ",
+        "author": "Author Kojo",
+        "postId": 3,
+        "userId": 1,
+        "createdAt": "2024-05-09T15:13:36.000Z",
+        "updatedAt": "2024-05-09T15:13:36.000Z"
+    }
+]
